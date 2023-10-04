@@ -35,6 +35,11 @@ class General(tk.Toplevel):
         self.f1 = ttk.Frame(self)
         self.f1.pack(side=tk.TOP, fill=tk.X)
 
+        self.backFrame = ttk.Frame(self)
+        self.backFrame.place(relx=0, rely=1, anchor='sw')
+        tk.Button(self.backFrame, text="Back",
+                  command=self.back, font="calibre 25 bold", width=25).pack(side='left')
+
         self.startQuiz()
 
     def startQuiz(self):
@@ -84,6 +89,10 @@ class General(tk.Toplevel):
     def clearFrame(self):
         for widget in self.f1.winfo_children():
             widget.destroy()
+
+    def back(self):
+        self.app.deiconify()
+        self.destroy()
 
 
 class Data(tk.Toplevel):
@@ -117,6 +126,11 @@ class Data(tk.Toplevel):
         self.f1 = ttk.Frame(self)
         self.f1.pack(side=tk.TOP, fill=tk.X)
 
+        self.backFrame = ttk.Frame(self)
+        self.backFrame.place(relx=0, rely=1, anchor='sw')
+        tk.Button(self.backFrame, text="Back",
+                  command=self.back, font="calibre 25 bold", width=25).pack(side='left')
+
         self.startQuiz()
 
     def startQuiz(self):
@@ -166,6 +180,10 @@ class Data(tk.Toplevel):
     def clearFrame(self):
         for widget in self.f1.winfo_children():
             widget.destroy()
+
+    def back(self):
+        self.app.deiconify()
+        self.destroy()
 
 
 class Algorithms(tk.Toplevel):
@@ -200,9 +218,9 @@ class Algorithms(tk.Toplevel):
         self.f1.pack(side=tk.TOP, fill=tk.X)
 
         self.backFrame = ttk.Frame(self)
-        self.backFrame.place(relx=0.5, rely=.5, anchor='sw')
-        ttk.Button(self.backFrame, text="Back",
-                   command=self.back).pack(side='left')
+        self.backFrame.place(relx=0, rely=1, anchor='sw')
+        tk.Button(self.backFrame, text="Back",
+                  command=self.back, font="calibre 25 bold", width=25).pack(side='left')
 
         self.startQuiz()
 
@@ -285,6 +303,11 @@ class App(tk.Tk):
 
         ttk.Label(self, text='Choose a quiz', font="calibre 40 normal").place(relx=.5, rely=0.2, anchor='center')
 
+        self.backFrame = ttk.Frame(self)
+        self.backFrame.place(relx=0, rely=1, anchor='sw')
+        tk.Button(self.backFrame, text="Close",
+                  command=self.close, font="calibre 25 bold", width=25).pack(side='left')
+
     def openGen(self):
         newWindow = General(self)
         newWindow.grab_set()
@@ -299,6 +322,9 @@ class App(tk.Tk):
         newWindow = Algorithms(self)
         newWindow.grab_set()
         self.withdraw()
+
+    def close(self):
+        self.destroy()
 
 
 if __name__ == "__main__":
