@@ -14,7 +14,7 @@ Key Features:
 </ul>
 This quiz is an open-source project, so you can customize and extend it to suit your needs. It's an ideal tool for anyone looking to prepare for an interview. <br>
 
-<h1> TODO </h1> :
+<h1> TODO </h1> 
 <ul>
   <li>
     Make aesthetic changes to the quiz
@@ -23,18 +23,12 @@ This quiz is an open-source project, so you can customize and extend it to suit 
     Add more questions
   </li>
     <li>
-    Add categories to questions i.e General, Data Structures, etc
+    Add section for missed questions
   </li>
   <li>
     Make wrong answers not so obvious
   </li>
   <li>
-    Randomize question order 
-  </li>
-  <li>
-    Allow user to specify how many questions are shown throughout the quiz
-  </li>
-  <li>
-     Keep track of questions missed by the user   
+    Randomize question order ( Done but causes self.missed gets populated before quiz starts )
   </li>
 </ul>
