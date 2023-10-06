@@ -1,9 +1,104 @@
 {
   "What is a Data Structure?": [
-  "A data structure is a storage format that defines the way data is stored, organized, and manipulated.",
-  "A data structure is a way to sort books on a shelf.",
-  "A data structure is a specific type of programming language."
+    "A data structure is a storage format that defines the way data is stored, organized, and manipulated.",
+    "A data structure is a way to sort books on a shelf.",
+    "A data structure is a specific type of programming language."
   ],
+  "What is an Array?": [
+      "An array is commonly referred to as a collection of items stored at contiguous memory locations.",
+      "An array is a kind of spreadsheet used for organizing data.",
+      "An array is a special type of computer hardware used for data storage."
+  ],
+  "What is a Linked List?": [
+      "A linked list is a type of data structure that has a sequence of nodes, each node points to the next node.",
+      "A linked list is a type of hyperlink used to navigate the internet.",
+      "A linked list is a type of tree-based data structure."
+  ],
+  "What is LIFO?": [
+      "LIFO stands for Last In First Out.",
+      "LIFO stands for Last Inactive First Offline",
+      "LIFO stands for Least Invoked First Obliterated."
+  ],
+  "What is a Stack?": [
+      "A stack refers to a linear data structure performing operations in a LIFO order.",
+      "A stack is a collection of items placed one on top of another.",
+      "A stack refers to a linear data structure performing operations in a FIFO order."
+  ],
+  "What is FIFO?": [
+      "FIFO stands for First In First Out.",
+      "FIFO stands for Fast Input Fast Output.",
+      "FIFO stands for Fast Insertions Fast Operations"
+  ],
+  "What is a Queue": [
+      "A queue refers to a linear data structure performing operations in a FIFO order.",
+      "A queue is a line of operations waiting to be executed.",
+      "A queue refers to a linear data structure performing operations in a LIFO order."
+  ],
+  "What are Binary Trees?": [
+      "A binary tree is a non-linear tree data structure where each parent node can have a maximum of 2 child nodes.",
+      "A binary tree is a non-linear tree data structure where each parent node can have a maximum of 3 child nodes.",
+      "A binary tree is a non-linear tree data structure where each parent node can have a maximum of 1 child nodes."
+  ],
+  "What is Recursion?": [
+      "Recursion refers to a function calling itself based on a terminating condition.",
+      "Recursion is a term used in mathematics for solving complex problems step by step.",
+      "Recursion refers to a function calling other functions."
+  ],
+  "What is the OOPs concept?": [
+      "The OOPs concept is a paradigm that provides concepts such as objects, classes, and inheritance.",
+      "The OOPs concept is a paradigm that is structured around procedures or functions.",
+      "The OOPs concept is a paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data. "
+  ],
+   "What are the concepts introduced in OOPS?" : [
+       "Objects, Class, Inheritance, Polymorphism, Abstraction, Encapsulation.",
+       "Methods, Properties, Functions, Variables, Classes.",
+       "Arrays, Loops, Pointers, Operators, Functions."
+   ],
+   "What is a Binary Search Tree?" : [
+       "Left sub-tree contains nodes with values LESS than the parent node and the Right sub tree contains nodes with values GREATER than the parent node.",
+       "Left sub-tree contains nodes with values GREATER than the parent node and the Right sub tree contains nodes with values LESS than the parent node.",
+       "A tree structure where the left and right subtrees contain nodes with values EQUAL to the parent node."
+   ],
+   "What are Doubly Linked Lists?" : [
+       "A type of linked list in which traversal across the elements can be done in both directions",
+       "A type of linked list that contains a pointer to the head and tail",
+       "A type of linked list in which traversal across the elements can only be done in one direction"
+   ],
+   "What is a Graph?" : [
+       "A type of data structure that contains a set of ordered pairs, which are edges that connect nodes",
+       "A type of data structure that contains a collection of nodes with no connections between them",
+       "A type of data structure that contains x and y coordinates"
+   ],
+   "What is the difference between linear and non-linear data structures?" : [
+       "Data elements are adjacent to each other in linear data structures and are arranged in hierarchical manner in non-linear structures.",
+       "Data elements are adjacent to each other in non-linear data structures and are arranged in hierarchical manner in linear structures.",
+       "The differences are purely based on what programming language you are using"
+   ],
+   "What is Deque?" : [
+       "Double-ended queue",
+       "An acronym for 'Data Queue'",
+       "A double-ended stack"
+   ],
+   "What is the difference between Stack and Array?" : [
+       "Data access in a stack follows a particular sequence, arrays do not follow a specific order",
+       "Arrays follow a LIFO order, while stacks follow a FIFO",
+       "Arrays have a fixed size, while stacks can dynamically expand"
+   ],
+   "What sorting algorithm has the quickest runtime?" : [
+      "Quicksort",
+       "Bogosort",
+       "Bubblesort"
+   ],
+   "How does variable declaration affect memory?" : [
+       "The amount of memory allocated  depends on the data type being stored in the variable",
+       "Variable declaration has no impact on memory",
+       "Memory allocation is fixed for all variables"
+   ],
+   "What are dynamic data structures?" : [
+       "Data structures that can expand and contract as a program runs",
+       "Data structures that are only used in dynamic programming",
+       "Data structures that are predefined and cannot be changed during runtime"
+   ],
 
   "What is the difference between an array and a linked list?": [
   "An array is a static data structure with a fixed size, while a linked list is a dynamic data structure.",
@@ -31,86 +126,38 @@
 
   "What is a hash table data structure?": [
   "A hash table is a data structure that maps keys to values for efficient retrieval.",
-  "A hash table is a structure used for organizing books in a library.",
-  "A hash table is a type of sorting algorithm."
+  "A hash table data structure is a table used for storing information about different types of hashes.",
+  "A hash table data structure is a chart that displays the hash values of various data elements."
   ],
 
   "How does a linked list differ from an array in terms of memory allocation?": [
   "A linked list dynamically allocates memory for each element, while an array pre-allocates a block of memory.",
   "A linked list allocates the same amount of memory as an array.",
-  "A linked list uses a fixed block of memory."
+  "An array dynamically allocates memory for each element, while a linked list pre-allocates a block of memory."
   ],
 
   "What is a graph data structure used for?": [
   "A graph is used for modeling relationships between various entities.",
   "A graph is used for linear data storage.",
-  "A graph is used for sorting data."
+  "A graph is used for non-linear data."
   ],
 
   "What is a doubly-linked list?": [
   "A doubly-linked list is a type of linked list where each node has pointers to both the next and previous nodes.",
   "A doubly-linked list is a list that contains only even numbers.",
-  "A doubly-linked list is a type of tree structure."
+  "A doubly-linked list is a list that is linked twice to the same set of data, making it incredibly efficient."
   ],
 
   "What is the purpose of a heap data structure?": [
   "A heap is used for priority queue operations like insertion, maximum extraction, and sorting.",
-  "A heap is used for organizing data in an alphabetical order.",
+  "The purpose of a heap data structure is to provide a place for collecting garbage and waste materials in computer memory.",
   "A heap is used for searching data."
-  ],
-
-  "What is a trie data structure?": [
-  "A trie is a tree-like structure used for storing a dynamic set of strings, often used in text autocomplete systems.",
-  "A trie is a type of data structure that stores integers.",
-  "A trie is a structure for organizing data in an array."
   ],
 
   "What is the primary advantage of a hash table data structure?": [
   "The primary advantage of a hash table is its fast data retrieval time on average.",
   "The primary advantage of a hash table is its low memory usage.",
   "The primary advantage of a hash table is its efficient sorting capabilities."
-  ],
-
-  "What is a linked list data structure?": [
-  "A linked list is a linear data structure where elements are stored in nodes, and each node points to the next one.",
-  "A linked list is a type of graph structure.",
-  "A linked list is a sorted array."
-  ],
-
-  "What is an AVL tree?": [
-  "An AVL tree is a self-balancing binary search tree where the height of the two child subtrees of every node differs by at most one.",
-  "An AVL tree is a type of hash table.",
-  "An AVL tree is used for linear data storage."
-  ],
-
-  "What is a B-tree data structure used for?": [
-  "A B-tree is used for organizing data for efficient disk access and external storage.",
-  "A B-tree is used for fast in-memory sorting.",
-  "A B-tree is used for data encryption."
-  ],
-
-  "What is a red-black tree data structure?": [
-  "A red-black tree is a self-balancing binary search tree where each node has a color attribute, either red or black.",
-  "A red-black tree is a type of stack.",
-  "A red-black tree is a linked list."
-  ],
-
-  "What is a priority queue data structure?": [
-  "A priority queue is an abstract data type where each element has an associated priority and the element with the highest priority is served first.",
-  "A priority queue is used for random data access.",
-  "A priority queue is a type of stack."
-  ],
-
-  "What is a circular linked list?": [
-  "A circular linked list is a linked list where the last node points back to the first node, forming a closed loop.",
-  "A circular linked list is used for sorting data in ascending order.",
-  "A circular linked list is a type of binary tree."
-  ],
-
-  "What is a skip list data structure?": [
-  "A skip list is a data structure that allows for fast search within an ordered sequence of elements.",
-  "A skip list is used for encrypting data.",
-  "A skip list is a type of hash table."
   ],
 
   "What is the difference between a stack and a queue data structure?": [
@@ -202,36 +249,6 @@
   "It means the algorithm takes exponential time to run."
   ],
 
-  "What is the time complexity of a bubble sort algorithm?": [
-  "The time complexity of bubble sort is O(n^2), where 'n' is the size of the input data.",
-  "The time complexity of bubble sort is O(n), regardless of input size.",
-  "The time complexity of bubble sort is O(1), regardless of input size."
-  ],
-
-  "What is the time complexity of a quicksort algorithm in the average case?": [
-  "The average-case time complexity of quicksort is O(n log n), where 'n' is the size of the input data.",
-  "The average-case time complexity of quicksort is O(n^2), regardless of input size.",
-  "The average-case time complexity of quicksort is O(1), regardless of input size."
-  ],
-
-  "What is the time complexity of a selection sort algorithm?": [
-  "The time complexity of selection sort is O(n^2), where 'n' is the size of the input data.",
-  "The time complexity of selection sort is O(log n), regardless of input size.",
-  "The time complexity of selection sort is O(1), regardless of input size."
-  ],
-
-  "What is the time complexity of an insertion sort algorithm in the average case?": [
-  "The average-case time complexity of insertion sort is O(n^2), where 'n' is the size of the input data.",
-  "The average-case time complexity of insertion sort is O(n log n), regardless of input size.",
-  "The average-case time complexity of insertion sort is O(1), regardless of input size."
-  ],
-
-  "What is the time complexity of a merge sort algorithm?": [
-  "The time complexity of merge sort is O(n log n), where 'n' is the size of the input data.",
-  "The time complexity of merge sort is O(n^2), regardless of input size.",
-  "The time complexity of merge sort is O(1), regardless of input size."
-  ],
-
   "What is the time complexity of a linearithmic algorithm (O(n log n))?": [
   "A linearithmic algorithm has a time complexity of O(n log n), which is faster than quadratic but slower than linear time complexity.",
   "A linearithmic algorithm has a time complexity of O(n^2), which is slower than linear but faster than quadratic time complexity.",
@@ -295,5 +312,95 @@
       "Common techniques include reusing memory, eliminating redundant data, and employing efficient data structures.",
       "Dynamic programming and memoization are often used to optimize space complexity.",
       "Minimizing space complexity may involve trade-offs with time complexity."
+  ],
+    "What is the purpose of a binary search algorithm?": [
+    "Binary search is used to efficiently locate a specific item in a sorted list.",
+    "Binary search is used for sorting data in descending order.",
+    "Binary search is a simple linear search algorithm."
+  ],
+    "What is the role of an operating system in a computer system?": [
+    "An operating system manages hardware and provides services for computer programs.",
+    "Operating systems are only used for gaming on computers.",
+    "Operating systems are responsible for physical maintenance of computer components."
+  ],
+  "Explain the difference between a compiler and an interpreter.": [
+    "A compiler translates the entire program into machine code before execution, while an interpreter translates and executes code line by line.",
+    "Compilers and interpreters perform the same tasks in programming.",
+    "Compilers are used for web development, while interpreters are used for desktop applications."
+  ],
+  "What is the purpose of version control in software development?": [
+    "Version control helps track and manage changes to source code, enabling collaboration and maintaining project history.",
+    "Version control is a way to track software versions for marketing purposes.",
+    "Version control is only used for debugging software."
+  ],
+  "Explain the concept of concurrency in software development.": [
+    "Concurrency is the ability of a system to perform multiple tasks in overlapping time periods.",
+    "Concurrency is a technique used for sequential execution of tasks.",
+    "Concurrency is only relevant in database management."
+  ],
+    "Explain the concept of polymorphism in object-oriented programming.": [
+    "Polymorphism allows objects of different classes to be treated as objects of a common base class, simplifying code design and reuse.",
+    "Polymorphism is a concept used only in low-level programming languages.",
+    "Polymorphism is a technique used to increase code complexity."
+  ],
+  "Explain the difference between synchronous and asynchronous programming.": [
+    "Synchronous programming executes tasks one after the other, blocking until each task is completed, while asynchronous programming allows multiple tasks to run concurrently.",
+    "Synchronous and asynchronous programming are the same concepts with different names.",
+    "Asynchronous programming is a technique used only for user interfaces."
+  ],
+    "What is the purpose of a try-catch block in programming?": [
+    "A try-catch block is used for error handling, allowing the program to gracefully handle exceptions and prevent crashes.",
+    "Try-catch blocks are used to execute code repeatedly.",
+    "Try-catch blocks are used exclusively in game development."
+  ],
+  "What is the fundamental difference between a thread and a process in a computer system?": [
+    "A process is an independent program with its memory space, while threads share the same memory space within a process.",
+    "Threads and processes are interchangeable terms for the same concept in computer science.",
+    "Threads are used for user-level tasks, and processes are used for system-level tasks."
+  ],
+  "Explain the concept of multithreading in software development.": [
+    "Multithreading is a technique that allows a program to run multiple threads concurrently, enabling improved performance and responsiveness.",
+    "Multithreading is used to create standalone applications with no interactivity.",
+    "Multithreading is only used in gaming software."
+  ],
+  "What is a race condition in the context of multithreading?": [
+    "A race condition occurs when two or more threads access shared data simultaneously, leading to unexpected and undesirable results.",
+    "Race conditions are designed to optimize thread performance.",
+    "Race conditions only happen in single-threaded applications."
+  ],
+  "Explain the purpose of a mutex in multithreaded programming.": [
+    "A mutex (short for mutual exclusion) is used to protect shared resources and prevent multiple threads from accessing them simultaneously.",
+    "Mutexes are used to increase thread concurrency in a program.",
+    "Mutexes are only used for debugging thread-related issues."
+  ],
+  "What is a thread pool, and why is it used in multithreaded applications?": [
+    "A thread pool is a group of reusable threads that are managed and maintained for task execution, improving efficiency and performance.",
+    "Thread pools are only used for multithreaded database queries.",
+    "Thread pools are designed to create excessive threads for a single task."
+  ],
+  "What is a daemon thread in the context of multithreading?": [
+    "A daemon thread is a thread that runs in the background and is terminated when all non-daemon threads have completed their execution.",
+    "Daemon threads are used for user interface interactions.",
+    "Daemon threads are critical for system stability."
+  ],
+  "What is the main advantage of using threads in software development?": [
+    "Threads can improve application responsiveness by allowing concurrent execution of tasks and utilizing multiple processor cores.",
+    "Threads are used to reduce the complexity of software applications.",
+    "Threads are exclusively used for encryption purposes."
+  ],
+  "Explain the concept of process isolation in the context of operating systems.": [
+    "Process isolation is a security feature that ensures processes are separated and cannot interfere with each other's memory or resources.",
+    "Process isolation is a way to improve inter-process communication.",
+    "Process isolation is used to maximize system resource sharing."
+  ],
+  "What is the primary role of a scheduler in a multitasking operating system?": [
+    "A scheduler determines which process or thread gets to use the CPU, ensuring fair and efficient resource allocation.",
+    "Schedulers are designed to slow down the execution of processes and threads.",
+    "Schedulers are used exclusively for error handling."
+  ],
+  "Why might you choose to use processes instead of threads in a software application?": [
+    "Processes offer better isolation, stability, and security, which can be crucial for certain applications.",
+    "Processes are used for tasks that require high concurrency.",
+    "Processes are only used for small, single-threaded applications."
   ]
 }

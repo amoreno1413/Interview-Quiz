@@ -98,5 +98,160 @@
          "Data structures that can expand and contract as a program runs",
          "Data structures that are only used in dynamic programming",
          "Data structures that are predefined and cannot be changed during runtime"
-     ]
+     ],
+
+   "What is the time complexity of a bubble sort algorithm?": [
+  "The time complexity of bubble sort is O(n^2), where 'n' is the size of the input data.",
+  "The time complexity of bubble sort is O(n), regardless of input size.",
+  "The time complexity of bubble sort is O(1), regardless of input size."
+  ],
+
+  "What is the time complexity of a quicksort algorithm in the average case?": [
+  "The average-case time complexity of quicksort is O(n log n), where 'n' is the size of the input data.",
+  "The average-case time complexity of quicksort is O(n^2), regardless of input size.",
+  "The average-case time complexity of quicksort is O(1), regardless of input size."
+  ],
+
+  "What is the time complexity of a selection sort algorithm?": [
+  "The time complexity of selection sort is O(n^2), where 'n' is the size of the input data.",
+  "The time complexity of selection sort is O(log n), regardless of input size.",
+  "The time complexity of selection sort is O(1), regardless of input size."
+  ],
+
+  "What is the time complexity of an insertion sort algorithm in the average case?": [
+  "The average-case time complexity of insertion sort is O(n^2), where 'n' is the size of the input data.",
+  "The average-case time complexity of insertion sort is O(n log n), regardless of input size.",
+  "The average-case time complexity of insertion sort is O(1), regardless of input size."
+  ],
+
+  "What is the time complexity of a merge sort algorithm?": [
+  "The time complexity of merge sort is O(n log n), where 'n' is the size of the input data.",
+  "The time complexity of merge sort is O(n^2), regardless of input size.",
+  "The time complexity of merge sort is O(1), regardless of input size."
+  ],
+ "What is the Floyd-Warshall Algorithm?": [
+      "The Floyd-Warshall Algorithm is a dynamic programming algorithm used to find the shortest paths between all pairs of nodes in a weighted graph.",
+      "The Floyd-Warshall Algorithm is a cryptographic algorithm for secure communication.",
+      "The Floyd-Warshall Algorithm is a method for generating random numbers."
+  ],
+  "How does the Floyd-Warshall Algorithm determine the shortest paths between all pairs of nodes in a graph?": [
+      "The algorithm computes a table of shortest paths by considering all nodes as potential intermediaries and iteratively updating the shortest distances.",
+      "Floyd-Warshall always starts from the source node and explores all possible paths to the destination node.",
+      "The algorithm computes the shortest paths using a random search approach, which guarantees optimality."
+  ],
+  "What is the runtime complexity of the Floyd-Warshall Algorithm for finding all-pairs shortest paths?": [
+      "The runtime complexity of the Floyd-Warshall Algorithm is O(V^3), where V is the number of vertices, which is efficient for most graphs.",
+      "It has a runtime complexity of O(E log V), where E is the number of edges and V is the number of vertices.",
+      "Floyd-Warshall has a constant runtime complexity of O(1) for all graphs."
+  ],
+  "Can the Floyd-Warshall Algorithm handle graphs with negative weight cycles, and what are the implications?": [
+      "Floyd-Warshall can handle graphs with negative weight cycles, but it won't give correct results when negative weight cycles are present. It may lead to infinite negative paths.",
+      "Floyd-Warshall cannot handle graphs with negative weight cycles, and it will not return valid results.",
+      "Negative weight cycles have no effect on the Floyd-Warshall Algorithm since it guarantees optimal results."
+  ],
+  "Provide an example scenario where the Floyd-Warshall Algorithm is used in real-life applications and discuss its time complexity in that context.": [
+      "Floyd-Warshall is used in GPS navigation systems to find the shortest routes between locations. Its time complexity is crucial for real-time navigation.",
+      "It's applied in flight route optimization to determine the most cost-efficient flight paths between airports. The algorithm's time complexity affects fuel savings.",
+      "Floyd-Warshall is employed in network routing to ensure data travels secure and fast through various routers."
+  ],
+ "What is Kruskal's Algorithm?": [
+      "Kruskal's Algorithm is a greedy algorithm used to find the minimum spanning tree of a connected, undirected graph.",
+      "Kruskal's Algorithm is a type of machine learning algorithm for clustering data.",
+      "Kruskal's Algorithm is an encryption technique."
+  ],
+  "How does Kruskal's Algorithm work to find the minimum spanning tree?": [
+      "Kruskal's Algorithm works by sorting all edges in the graph by their weight and then iteratively adding the shortest edges that don't form cycles until a minimum spanning tree is obtained.",
+      "It starts from a random node and traverses all nodes to create a tree.",
+      "Kruskal's Algorithm begins from the node with the highest degree and connects neighboring nodes."
+  ],
+  "What is the runtime complexity of Kruskal's Algorithm for finding a minimum spanning tree?": [
+      "The runtime complexity of Kruskal's Algorithm is O(E log E), where E is the number of edges, which is efficient for most graphs.",
+      "It has a constant runtime complexity of O(1) for finding minimum spanning trees.",
+      "Kruskal's Algorithm has a runtime complexity of O(V^2), where V is the number of vertices."
+  ],
+  "Can Kruskal's Algorithm handle graphs with weighted edges, and what are the implications?": [
+      "Kruskal's Algorithm is designed for graphs with weighted edges and works optimally to find the minimum spanning tree regardless of edge weights.",
+      "Kruskal's Algorithm cannot handle graphs with weighted edges and may not guarantee the minimum spanning tree in such cases.",
+      "Weighted edges have no effect on Kruskal's Algorithm since it doesn't consider edge weights."
+  ],
+  "Provide an example scenario where Kruskal's Algorithm is used in real-life applications and discuss its time complexity in that context.": [
+      "Kruskal's Algorithm is applied in network design to find the minimum cost of laying cables or connecting network nodes. Its time complexity is crucial for cost optimization.",
+      "It's used in circuit design to minimize the length of connections on a circuit board. The algorithm's time complexity impacts the manufacturing process.",
+      "Kruskal's Algorithm is employed in resource management for efficient allocation of resources in large organizations. Its time complexity influences resource allocation speed."
+  ],
+ "What is Quicksort?": [
+      "Quicksort is a highly efficient, comparison-based sorting algorithm known for its fast average-case performance.",
+      "Quicksort is a type of data structure used to store numbers in a list.",
+      "Quicksort is an encryption algorithm."
+  ],
+  "How does Quicksort divide and sort elements in an array?": [
+      "Quicksort selects a 'pivot' element, divides the array into two subarrays - elements less than the pivot and elements greater than the pivot - and then recursively sorts these subarrays.",
+      "Quicksort always selects the middle element as the pivot to ensure a balanced split.",
+      "Quicksort divides the array into three subarrays: elements less than the pivot, elements equal to the pivot, and elements greater than the pivot."
+  ],
+  "What is the runtime complexity of Quicksort in the average case?": [
+      "The average-case runtime complexity of Quicksort is O(n log n), making it one of the fastest sorting algorithms for most scenarios.",
+      "Its average-case runtime complexity is O(n^2), making it inefficient for most data sets.",
+      "Quicksort has a constant runtime complexity of O(1) in the average case."
+  ],
+  "Explain the worst-case scenario for Quicksort and how it can be mitigated.": [
+      "The worst-case scenario occurs when the pivot selection consistently results in highly unbalanced subarrays, leading to O(n^2) complexity. This can be mitigated by using techniques like random or median-of-three pivot selection.",
+      "The worst-case scenario is when the array is already sorted, resulting in a runtime complexity of O(n log n). This can be mitigated by using pivot selection algorithms to ensure balanced subarrays.",
+      "Quicksort has no worst-case scenario, and its performance is always optimal."
+  ],
+  "Provide an example scenario where Quicksort is used in real-life applications and discuss its time complexity in that context.": [
+      "Quicksort is commonly used in sorting large datasets in databases, where its O(n log n) time complexity is crucial for efficient data retrieval.",
+      "It's applied in computer graphics for tasks like rendering and depth buffering. Its time complexity impacts the rendering speed in video games and simulations.",
+      "Quicksort is used in natural language processing for tasks like text search and pattern matching. Its time complexity influences the efficiency of text processing applications."
+  ],
+ "What is Depth-First Search (DFS)?": [
+      "Depth-First Search is a graph traversal algorithm that explores as far down a branch as possible before backtracking.",
+      "It's an encryption algorithm.",
+      "DFS is a way to store data in a database."
+  ],
+  "How does DFS operate when exploring a graph?": [
+      "DFS explores a path as deeply as possible before backtracking to explore other branches, making it a recursive approach.",
+      "It always follows the shortest path to save computational resources.",
+      "DFS explores the graph by always taking the leftmost branch."
+  ],
+  "What is the runtime complexity of DFS when applied to a graph?": [
+      "The runtime complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges.",
+      "It has a runtime complexity of O(E log V), where E is the number of edges and V is the number of vertices.",
+      "DFS has a constant runtime complexity of O(1)."
+  ],
+  "Can DFS handle graphs with weighted edges, and what are the implications?": [
+      "DFS can handle weighted graphs but doesn't guarantee the shortest path. It may not find the optimal solution in such cases.",
+      "DFS is designed exclusively for unweighted graphs and cannot process weighted edges.",
+      "Weighted edges have no effect on DFS since it doesn't consider edge weights."
+  ],
+  "Provide an example scenario where DFS is used in real-life applications and discuss its time complexity in that context.": [
+      "DFS is applied in maze-solving algorithms to find paths. Its time complexity is reasonable for small mazes.",
+      "It's used in solving puzzles like Sudoku and the N-Queens problem. Its time complexity is essential for solving complex puzzles.",
+      "DFS is employed in analyzing and optimizing decision trees in artificial intelligence. Its time complexity affects the speed of decision-making processes."
+  ],
+ "What is Breadth-First Search (BFS)?": [
+      "Breadth-First Search is a graph traversal algorithm that explores all the neighbors of a node before moving to its children.",
+      "It's an algorithm used for data compression.",
+      "Breadth-First Search is a type of data sorting technique."
+  ],
+  "How does BFS determine the shortest path in an unweighted graph?": [
+      "BFS guarantees the shortest path by exploring nodes level by level, ensuring the first encountered path is the shortest.",
+      "It uses heuristics to estimate the shortest path, not guaranteeing optimality.",
+      "BFS randomly selects nodes to estimate the shortest path."
+  ],
+  "What is the runtime complexity of BFS when applied to a graph?": [
+      "The runtime complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges.",
+      "It has a runtime complexity of O(E log V), where E is the number of edges and V is the number of vertices.",
+      "BFS has a constant runtime complexity of O(1)."
+  ],
+  "Can BFS handle graphs with weighted edges, and what are the implications?": [
+      "BFS is designed for unweighted graphs and doesn't account for weighted edges. It doesn't guarantee the shortest path in weighted graphs.",
+      "BFS works optimally with weighted edges and produces the shortest path regardless of edge weights.",
+      "Weighted edges have no effect on BFS since it doesn't consider edge weights."
+  ],
+  "Provide an example scenario where BFS is used in real-life applications and discuss its time complexity in that context.": [
+      "BFS is employed in social network analysis to find the shortest connection between users. Its time complexity is reasonable for large social networks.",
+      "It's used in web crawling to index web pages efficiently. Its time complexity plays a crucial role in keeping search engines up to date.",
+      "BFS is applied in recommendation systems to find the shortest path between products or content. Its time complexity impacts user experience."
+  ]
 }

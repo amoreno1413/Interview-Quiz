@@ -64,36 +64,6 @@
     "A linked list is a type of graph structure.",
     "A linked list is a sorted array."
   ],
-  "What is an AVL tree?": [
-    "An AVL tree is a self-balancing binary search tree where the height of the two child subtrees of every node differs by at most one.",
-    "An AVL tree is a type of hash table.",
-    "An AVL tree is used for linear data storage."
-  ],
-  "What is a B-tree data structure used for?": [
-    "A B-tree is used for organizing data for efficient disk access and external storage.",
-    "A B-tree is used for fast in-memory sorting.",
-    "A B-tree is used for data encryption."
-  ],
-  "What is a red-black tree data structure?": [
-    "A red-black tree is a self-balancing binary search tree where each node has a color attribute, either red or black.",
-    "A red-black tree is a type of stack.",
-    "A red-black tree is a linked list."
-  ],
-  "What is a priority queue data structure?": [
-    "A priority queue is an abstract data type where each element has an associated priority and the element with the highest priority is served first.",
-    "A priority queue is used for random data access.",
-    "A priority queue is a type of stack."
-  ],
-  "What is a circular linked list?": [
-    "A circular linked list is a linked list where the last node points back to the first node, forming a closed loop.",
-    "A circular linked list is used for sorting data in ascending order.",
-    "A circular linked list is a type of binary tree."
-  ],
-  "What is a skip list data structure?": [
-    "A skip list is a data structure that allows for fast search within an ordered sequence of elements.",
-    "A skip list is used for encrypting data.",
-    "A skip list is a type of hash table."
-  ],
   "What is the difference between a stack and a queue data structure?": [
     "A stack follows the Last In, First Out (LIFO) principle, while a queue follows the First In, First Out (FIFO) principle.",
     "A stack and a queue are the same; they both follow the LIFO principle.",
@@ -248,5 +218,80 @@
     "Common techniques include reusing memory, eliminating redundant data, and employing efficient data structures.",
     "Dynamic programming and memoization are often used to optimize space complexity.",
     "Minimizing space complexity may involve trade-offs with time complexity."
+  ],
+    "What is an AVL tree?": [
+  "An AVL tree is a self-balancing binary search tree where the height of the two child subtrees of every node differs by at most one.",
+  "An AVL tree is a type of tree where every node is greater than the root node.",
+  "An AVL tree is a type of tree where every node is less than the root node."
+  ],
+
+  "What is a B-tree data structure used for?": [
+  "A B-tree is used for organizing data for efficient disk access and external storage.",
+  "A B-tree is used for fast in-memory sorting.",
+  "A B-tree is used for data encryption."
+  ],
+
+  "What is a red-black tree data structure?": [
+  "A red-black tree is a self-balancing binary search tree where each node has a color attribute, either red or black.",
+  "A red-black tree is a self-balancing binary search tree where the height of the two child subtrees of every node differs by at most one.",
+  "A red-black tree is a self-balancing binary search where each node is equal to the root node."
+  ],
+
+  "What is a priority queue data structure?": [
+  "A priority queue is an abstract data type where each element has an associated priority and the element with the highest priority is served first.",
+  "A priority queue is an abstract data type where each element has an associated random priority.",
+  "A priority queue is an abstract data type where each element has the same associated priority."
+  ],
+
+  "What is a circular linked list?": [
+  "A circular linked list is a linked list where the last node points back to the first node, forming a closed loop.",
+  "A circular linked list is a linked list used for sorting data in ascending order.",
+  "A circular linked list is a linked list having the same attributes as a binary search tree."
+  ],
+
+  "What is a skip list data structure?": [
+  "A skip list is a data structure that allows for fast search within an ordered sequence of elements.",
+  "A skip list is used for encrypting data.",
+  "A skip list is a type of hash table."
+  ],
+  "What is the runtime complexity of searching for an element in a Python list?": [
+    "The runtime complexity of searching in a Python list is O(n), where n is the number of elements.",
+    "It has a runtime complexity of O(log n) due to efficient searching algorithms.",
+    "Searching in a Python list has a constant runtime complexity of O(1)."
+  ],
+  "How do you append an element to the end of a Python list?": [
+    "You can use the 'append()' method to add an element to the end of a Python list.",
+    "Use the 'insert()' method with the last index to add an element to the end.",
+    "Appending to a Python list is done by assigning a value to the last index directly."
+  ],
+  "What is the purpose of list comprehensions in Python?": [
+    "List comprehensions are used to create new lists by applying an expression to each item in an existing iterable.",
+    "List comprehensions are used to perform complex mathematical operations on lists.",
+    "List comprehensions are only used for iterating over dictionary keys."
+  ],
+  "How do you reverse the elements of a Python list?": [
+    "You can use the 'reverse()' method to reverse the elements of a Python list.",
+    "Reversing a list is done by using a 'for' loop and changing the order manually.",
+    "Python lists cannot be reversed; you need to create a new list with reversed elements."
+  ],
+  "What is the difference between 'extend()' and 'append()' methods for lists?": [
+    "The 'extend()' method is used to add elements from an iterable to the end of a list, while 'append()' adds a single element to the end.",
+    "Both 'extend()' and 'append()' methods do the same thing.",
+    "'extend()' adds an element to the end, and 'append()' concatenates the list with another list."
+  ],
+  "What is the runtime complexity of dictionary item retrieval in Python?": [
+    "The runtime complexity of dictionary item retrieval is O(1), on average.",
+    "It has a runtime complexity of O(n) due to searching through all keys.",
+    "Dictionary item retrieval depends on the number of values in the dictionary, O(m), where m is the number of values."
+  ],
+  "How do you add a new key-value pair to a Python dictionary?": [
+    "You can add a new key-value pair by directly assigning a value to a new key.",
+    "Use the 'add()' method to insert a new key-value pair into a dictionary.",
+    "To add a new key-value pair, you need to use list comprehensions."
+  ],
+  "What is the purpose of the 'keys()' method in Python dictionaries?": [
+    "The 'keys()' method is used to retrieve all the keys from a dictionary as a list.",
+    "It returns the values associated with all the keys in a dictionary.",
+    "The 'keys()' method in Python dictionaries is used for encryption purposes."
   ]
 }
