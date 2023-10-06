@@ -13,7 +13,8 @@ Key Features:
     <li><strong>Customizable:</strong> Add your questions and answers to test your knowledge in any subject.</li>
 </ul>
 This quiz is an open-source project, so you can customize and extend it to suit your needs. It's an ideal tool for anyone looking to prepare for an interview. <br>
-<h1> TODO :
+
+<h1> TODO </h1> :
 <ul>
   <li>
     Make aesthetic changes to the quiz
