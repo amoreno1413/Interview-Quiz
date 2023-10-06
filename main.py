@@ -54,6 +54,7 @@ class General(tk.Toplevel):
         self.startQuiz()
 
     def startQuiz(self):
+        self.userScore.set(0)
         self.nextButton.pack()
         self.nextQ()
         if self.missed:
@@ -172,6 +173,7 @@ class Data(tk.Toplevel):
         self.startQuiz()
 
     def startQuiz(self):
+        self.userScore.set(0)
         self.nextButton.pack()
         self.nextQ()
         if self.missed:
@@ -290,6 +292,7 @@ class Algorithms(tk.Toplevel):
         self.startQuiz()
 
     def startQuiz(self):
+        self.userScore.set(0)
         self.nextButton.pack()
         self.nextQ()
         if self.missed:
@@ -320,7 +323,7 @@ class Algorithms(tk.Toplevel):
             self.checkAns()
             self.clearFrame()
             # Dynamically adjust font size based on number of questions
-            fontSize = min(30, int(300/len(self.randQ)))
+            fontSize = min(20, int(300 / len(self.randQ)))
             output = "Reset?"
             ttk.Label(self.f1, text=output, font="calibre 100 bold", anchor=tk.CENTER, justify=tk.CENTER).pack()
             ttk.Label(self.f1, text="Thanks for Participating", font="calibre 50 bold", anchor=tk.CENTER,
@@ -331,7 +334,7 @@ class Algorithms(tk.Toplevel):
                       justify=tk.CENTER).pack()
             for q in self.missed:
                 # Adjust font if quiz displays lots of questions
-                tk.Label(self.f1, text=q, font=f"calibre {fontSize} bold").pack()
+                tk.Label(self.f1, text=q, font=f"calibre {fontSize} bold", wraplength=1800).pack()
 
             self.reset.pack(anchor='center')
 
