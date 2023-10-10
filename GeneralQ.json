@@ -189,7 +189,7 @@
   "It means the algorithm takes logarithmic time to run."
   ],
 
-  "What is the time complexity of an algorithm with constant time (O(1))?": [
+  "What is the time complexity of an algorithm with constant time?": [
   "An algorithm with O(1) time complexity means it takes a constant amount of time to run, regardless of the input size.",
   "An algorithm with O(1) time complexity means it takes a linear amount of time to run.",
   "An algorithm with O(1) time complexity means it takes exponential time to run."
@@ -249,7 +249,7 @@
   "It means the algorithm takes exponential time to run."
   ],
 
-  "What is the time complexity of a linearithmic algorithm (O(n log n))?": [
+  "What is the time complexity of a linearithmic algorithm?": [
   "A linearithmic algorithm has a time complexity of O(n log n), which is faster than quadratic but slower than linear time complexity.",
   "A linearithmic algorithm has a time complexity of O(n^2), which is slower than linear but faster than quadratic time complexity.",
   "A linearithmic algorithm has a time complexity of O(1), which is the fastest possible."

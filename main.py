@@ -85,7 +85,7 @@ class General(tk.Toplevel):
             self.checkAns()
             self.clearFrame()
             # Dynamically adjust font size based on number of questions
-            fontSize = min(30, int(300/len(self.randQ)))
+            fontSize = min(30, int(300 / len(self.randQ)))
             output = "Reset?"
             ttk.Label(self.f1, text=output, font="calibre 100 bold", anchor=tk.CENTER, justify=tk.CENTER).pack()
             ttk.Label(self.f1, text="Thanks for Participating", font="calibre 50 bold", anchor=tk.CENTER,
@@ -204,7 +204,7 @@ class Data(tk.Toplevel):
             self.checkAns()
             self.clearFrame()
             # Dynamically adjust font size based on number of questions
-            fontSize = min(30, int(300/len(self.randQ)))
+            fontSize = min(30, int(300 / len(self.randQ)))
             output = "Reset?"
             ttk.Label(self.f1, text=output, font="calibre 100 bold", anchor=tk.CENTER, justify=tk.CENTER).pack()
             ttk.Label(self.f1, text="Thanks for Participating", font="calibre 50 bold", anchor=tk.CENTER,
@@ -367,25 +367,25 @@ class App(tk.Tk):
         self.attributes("-fullscreen", True)
         self.title("Quiz App")
 
+        ttk.Label(self, text='Choose a quiz', font="calibre 40 normal").place(relx=.5, rely=0.2, anchor='center')
+
         genStart = tk.Button(self, text="General Quiz",
                              command=self.openGen,
-                             font="calibre 17 bold", width=50, height=5)
+                             font="calibre 20 bold", width=50, height=5)
 
-        genStart.pack(side='left', expand=True)
+        genStart.place(relx=.5, rely=0.4, anchor='center')
 
         dataStart = tk.Button(self, text="Data Structures Quiz",
                               command=self.openDS,
-                              font="calibre 17 bold", width=50, height=5)
+                              font="calibre 20 bold", width=50, height=5)
 
-        dataStart.pack(side='left', expand=True)
+        dataStart.place(relx=.5, rely=0.6, anchor='center')
 
         algoStart = tk.Button(self, text="Algorithm Quiz",
                               command=self.openAl,
-                              font="calibre 17 bold", width=50, height=5)
+                              font="calibre 20 bold", width=50, height=5)
 
-        algoStart.pack(side="bottom", expand=True)
-
-        ttk.Label(self, text='Choose a quiz', font="calibre 40 normal").place(relx=.5, rely=0.2, anchor='center')
+        algoStart.place(relx=.5, rely=0.8, anchor='center')
 
         self.backFrame = ttk.Frame(self)
         self.backFrame.place(relx=0, rely=1, anchor='sw')
