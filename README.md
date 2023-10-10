@@ -29,6 +29,6 @@ This quiz is an open-source project, so you can customize and extend it to suit 
     Make wrong answers not so obvious
   </li>
   <li>
-    Randomize question order ( Done but causes self.missed gets populated before quiz starts )
+    Randomize question order ( Done but self.missed gets populated before quiz starts )
   </li>
 </ul>
