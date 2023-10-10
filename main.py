@@ -257,7 +257,7 @@ class Algorithms(tk.Toplevel):
 
         self.randQ = list(self.qna.keys())
         random.shuffle(self.randQ)
-        self.randQ = random.sample(self.randQ, 10)
+        self.randQ = random.sample(self.randQ, 25)
 
         self.options = list(self.question.values())
         super().__init__(parent)
