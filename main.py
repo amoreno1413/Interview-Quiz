@@ -365,9 +365,11 @@ class App(tk.Tk):
     def __init__(self):
         super().__init__()
         self.attributes("-fullscreen", True)
+        self.configure(background='#FCE6C9')
         self.title("Quiz App")
 
-        ttk.Label(self, text='Choose a quiz', font="calibre 40 normal").place(relx=.5, rely=0.2, anchor='center')
+        ttk.Label(self, text='Choose a quiz', font="calibre 40 normal", background='#FCE6C9').place(relx=.5, rely=0.2,
+                                                                                                    anchor='center')
 
         genStart = tk.Button(self, text="General Quiz",
                              command=self.openGen,
