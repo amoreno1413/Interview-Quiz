@@ -1,104 +1,48 @@
  {
     "What is a Data Structure?": [
-        "A data structure is a storage format that defines the way data is stored, organized, and manipulated.",
-        "A data structure is a way to sort books on a shelf.",
-        "A data structure is a specific type of programming language."
+    "A data structure is a storage format that defines the way data is stored, organized, and manipulated.",
+    "A data structure is a way to sort books on a shelf.",
+    "A data structure is a specific type of programming language."
     ],
     "What is an Array?": [
-        "An array is commonly referred to as a collection of items stored at contiguous memory locations.",
-        "An array is a kind of spreadsheet used for organizing data.",
-        "An array is a special type of computer hardware used for data storage."
+    "An array is commonly referred to as a collection of items stored at contiguous memory locations.",
+    "An array is a kind of spreadsheet used for organizing data.",
+    "An array is a special type of computer hardware used for data storage."
     ],
     "What is a Linked List?": [
-        "A linked list is a type of data structure that has a sequence of nodes, each node points to the next node.",
-        "A linked list is a type of hyperlink used to navigate the internet.",
-        "A linked list is a type of tree-based data structure."
+    "A linked list is a type of data structure that has a sequence of nodes, each node points to the next node.",
+    "A linked list is a type of hyperlink used to navigate the internet.",
+    "A linked list is a type of tree-based data structure."
     ],
     "What is LIFO?": [
-        "LIFO stands for Last In First Out.",
-        "LIFO stands for Last Inactive First Offline",
-        "LIFO stands for Least Invoked First Obliterated."
+    "LIFO stands for Last In First Out.",
+    "LIFO stands for Last Inactive First Offline",
+    "LIFO stands for Least Invoked First Obliterated."
     ],
-    "What is a Stack?": [
-        "A stack refers to a linear data structure performing operations in a LIFO order.",
-        "A stack is a collection of items placed one on top of another.",
-        "A stack refers to a linear data structure performing operations in a FIFO order."
-    ],
+
     "What is FIFO?": [
-        "FIFO stands for First In First Out.",
-        "FIFO stands for Fast Input Fast Output.",
-        "FIFO stands for Fast Insertions Fast Operations"
+    "FIFO stands for First In First Out.",
+    "FIFO stands for Fast Input Fast Output.",
+    "FIFO stands for Fast Insertions Fast Operations"
     ],
-    "What is a Queue": [
-        "A queue refers to a linear data structure performing operations in a FIFO order.",
-        "A queue is a line of operations waiting to be executed.",
-        "A queue refers to a linear data structure performing operations in a LIFO order."
-    ],
-    "What are Binary Trees?": [
-        "A binary tree is a non-linear tree data structure where each parent node can have a maximum of 2 child nodes.",
-        "A binary tree is a non-linear tree data structure where each parent node can have a maximum of 3 child nodes.",
-        "A binary tree is a non-linear tree data structure where each parent node can have a maximum of 1 child nodes."
-    ],
+
     "What is Recursion?": [
-        "Recursion refers to a function calling itself based on a terminating condition.",
-        "Recursion is a term used in mathematics for solving complex problems step by step.",
-        "Recursion refers to a function calling other functions."
+    "Recursion refers to a function calling itself based on a terminating condition.",
+    "Recursion is a term used in mathematics for solving complex problems step by step.",
+    "Recursion refers to a function calling other functions."
     ],
-    "What is the OOPs concept?": [
-        "The OOPs concept is a paradigm that provides concepts such as objects, classes, and inheritance.",
-        "The OOPs concept is a paradigm that is structured around procedures or functions.",
-        "The OOPs concept is a paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data. "
-    ],
-     "What are the concepts introduced in OOPS?" : [
-         "Objects, Class, Inheritance, Polymorphism, Abstraction, Encapsulation.",
-         "Methods, Properties, Functions, Variables, Classes.",
-         "Arrays, Loops, Pointers, Operators, Functions."
-     ],
-     "What is a Binary Search Tree?" : [
-         "Left sub-tree contains nodes with values LESS than the parent node and the Right sub tree contains nodes with values GREATER than the parent node.",
-         "Left sub-tree contains nodes with values GREATER than the parent node and the Right sub tree contains nodes with values LESS than the parent node.",
-         "A tree structure where the left and right subtrees contain nodes with values EQUAL to the parent node."
-     ],
-     "What are Doubly Linked Lists?" : [
-         "A type of linked list in which traversal across the elements can be done in both directions",
-         "A type of linked list that contains a pointer to the head and tail",
-         "A type of linked list in which traversal across the elements can only be done in one direction"
-     ],
-     "What is a Graph?" : [
-         "A type of data structure that contains a set of ordered pairs, which are edges that connect nodes",
-         "A type of data structure that contains a collection of nodes with no connections between them",
-         "A type of data structure that contains x and y coordinates"
-     ],
-     "What is the difference between linear and non-linear data structures?" : [
-         "Data elements are adjacent to each other in linear data structures and are arranged in hierarchical manner in non-linear structures.",
-         "Data elements are adjacent to each other in non-linear data structures and are arranged in hierarchical manner in linear structures.",
-         "The differences are purely based on what programming language you are using"
-     ],
-     "What is Deque?" : [
-         "Double-ended queue",
-         "An acronym for 'Data Queue'",
-         "A double-ended stack"
-     ],
-     "What is the difference between Stack and Array?" : [
-         "Data access in a stack follows a particular sequence, arrays do not follow a specific order",
-         "Arrays follow a LIFO order, while stacks follow a FIFO",
-         "Arrays have a fixed size, while stacks can dynamically expand"
-     ],
-     "What sorting algorithm has the quickest runtime?" : [
-        "Quicksort",
-         "Bogosort",
-         "Bubblesort"
-     ],
-     "How does variable declaration affect memory?" : [
-         "The amount of memory allocated  depends on the data type being stored in the variable",
-         "Variable declaration has no impact on memory",
-         "Memory allocation is fixed for all variables"
-     ],
-     "What are dynamic data structures?" : [
-         "Data structures that can expand and contract as a program runs",
-         "Data structures that are only used in dynamic programming",
-         "Data structures that are predefined and cannot be changed during runtime"
-     ],
+
+   "What is Deque?" : [
+   "Double-ended queue",
+   "An acronym for 'Data Queue'",
+   "A double-ended stack"
+   ],
+
+   "What sorting algorithm has the quickest runtime?" : [
+      "Quicksort",
+       "Bogosort",
+       "Bubblesort"
+   ],
 
    "What is the time complexity of a bubble sort algorithm?": [
   "The time complexity of bubble sort is O(n^2), where 'n' is the size of the input data.",

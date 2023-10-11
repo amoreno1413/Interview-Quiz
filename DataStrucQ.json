@@ -104,7 +104,7 @@
     "Space complexity is a measure of the amount of memory an algorithm uses in terms of the output size.",
     "Space complexity is a measure of the amount of time an algorithm takes in terms of the input size."
   ],
-  "What does it mean when we say an algorithm has quadratic time complexity (O(n^2))?": [
+  "What does it mean when we say an algorithm has quadratic time complexity?": [
     "It means the running time of the algorithm grows quadratically with the size of the input data.",
     "It means the algorithm takes constant time to run.",
     "It means the algorithm takes logarithmic time to run."
@@ -293,5 +293,10 @@
     "The 'keys()' method is used to retrieve all the keys from a dictionary as a list.",
     "It returns the values associated with all the keys in a dictionary.",
     "The 'keys()' method in Python dictionaries is used for encryption purposes."
+  ],
+  "What is an Array?": [
+      "An array is commonly referred to as a collection of items stored at contiguous memory locations.",
+      "An array is commonly referred to as a collection of items stored at non-contiguous memory locations.",
+      "An array is a special type of computer hardware used for data storage."
   ]
 }

@@ -1,18 +1,18 @@
 {
   "What is a Data Structure?": [
     "A data structure is a storage format that defines the way data is stored, organized, and manipulated.",
-    "A data structure is a way to sort books on a shelf.",
-    "A data structure is a specific type of programming language."
+    "A data structure is a storage format that defines a computer algorithm used to sort and filter data.",
+    "A data structure is a storage format specifically designed to store and retrieve information."
   ],
   "What is an Array?": [
       "An array is commonly referred to as a collection of items stored at contiguous memory locations.",
-      "An array is a kind of spreadsheet used for organizing data.",
+      "An array is commonly referred to as a collection of items stored at non-contiguous memory locations.",
       "An array is a special type of computer hardware used for data storage."
   ],
-  "What is a Linked List?": [
-      "A linked list is a type of data structure that has a sequence of nodes, each node points to the next node.",
-      "A linked list is a type of hyperlink used to navigate the internet.",
-      "A linked list is a type of tree-based data structure."
+  "What is a linked list data structure?": [
+    "A linked list is a linear data structure where elements are stored in nodes, and each node points to the next one.",
+    "A linked list is a non-linear data structure where elements are stored in nodes, and each node points to the next one.",
+    "A linked list is a linear data structure where elements are stored in nodes, and each node points to the previous one."
   ],
   "What is LIFO?": [
       "LIFO stands for Last In First Out.",
@@ -40,64 +40,64 @@
       "A binary tree is a non-linear tree data structure where each parent node can have a maximum of 1 child nodes."
   ],
   "What is Recursion?": [
-      "Recursion refers to a function calling itself based on a terminating condition.",
-      "Recursion is a term used in mathematics for solving complex problems step by step.",
-      "Recursion refers to a function calling other functions."
+  "Recursion refers to a function calling itself based on a terminating condition.",
+  "Recursion is a term used in mathematics for solving complex problems step by step.",
+  "Recursion refers to a function calling other functions."
   ],
   "What is the OOPs concept?": [
-      "The OOPs concept is a paradigm that provides concepts such as objects, classes, and inheritance.",
-      "The OOPs concept is a paradigm that is structured around procedures or functions.",
-      "The OOPs concept is a paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data. "
+  "The OOPs concept is a paradigm that provides concepts such as objects, classes, and inheritance.",
+  "The OOPs concept is a paradigm that is structured around procedures or functions.",
+  "The OOPs concept is a paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data. "
   ],
    "What are the concepts introduced in OOPS?" : [
-       "Objects, Class, Inheritance, Polymorphism, Abstraction, Encapsulation.",
-       "Methods, Properties, Functions, Variables, Classes.",
-       "Arrays, Loops, Pointers, Operators, Functions."
+   "Objects, Class, Inheritance, Polymorphism, Abstraction, Encapsulation.",
+   "Methods, Properties, Functions, Variables, Classes.",
+   "Arrays, Loops, Pointers, Operators, Functions."
    ],
    "What is a Binary Search Tree?" : [
-       "Left sub-tree contains nodes with values LESS than the parent node and the Right sub tree contains nodes with values GREATER than the parent node.",
-       "Left sub-tree contains nodes with values GREATER than the parent node and the Right sub tree contains nodes with values LESS than the parent node.",
-       "A tree structure where the left and right subtrees contain nodes with values EQUAL to the parent node."
+   "Left sub-tree contains nodes with values LESS than the parent node and the Right sub tree contains nodes with values GREATER than the parent node.",
+   "Left sub-tree contains nodes with values GREATER than the parent node and the Right sub tree contains nodes with values LESS than the parent node.",
+   "A tree structure where the left and right subtrees contain nodes with values EQUAL to the parent node."
    ],
    "What are Doubly Linked Lists?" : [
-       "A type of linked list in which traversal across the elements can be done in both directions",
-       "A type of linked list that contains a pointer to the head and tail",
-       "A type of linked list in which traversal across the elements can only be done in one direction"
+   "A type of linked list in which traversal across the elements can be done in both directions",
+   "A type of linked list that contains a pointer to the head and tail",
+   "A type of linked list in which traversal across the elements can only be done in one direction"
    ],
    "What is a Graph?" : [
-       "A type of data structure that contains a set of ordered pairs, which are edges that connect nodes",
-       "A type of data structure that contains a collection of nodes with no connections between them",
-       "A type of data structure that contains x and y coordinates"
+   "A type of data structure that contains a set of ordered pairs, which are edges that connect nodes",
+   "A type of data structure that contains a collection of nodes with no connections between them",
+   "A type of data structure that contains x and y coordinates"
    ],
    "What is the difference between linear and non-linear data structures?" : [
-       "Data elements are adjacent to each other in linear data structures and are arranged in hierarchical manner in non-linear structures.",
-       "Data elements are adjacent to each other in non-linear data structures and are arranged in hierarchical manner in linear structures.",
-       "The differences are purely based on what programming language you are using"
+   "Data elements are adjacent to each other in linear data structures and are arranged in hierarchical manner in non-linear structures.",
+   "Data elements are adjacent to each other in non-linear data structures and are arranged in hierarchical manner in linear structures.",
+   "The differences are purely based on what programming language you are using"
    ],
    "What is Deque?" : [
-       "Double-ended queue",
-       "An acronym for 'Data Queue'",
-       "A double-ended stack"
+   "Double-ended queue",
+   "An acronym for 'Data Queue'",
+   "A double-ended stack"
    ],
    "What is the difference between Stack and Array?" : [
-       "Data access in a stack follows a particular sequence, arrays do not follow a specific order",
-       "Arrays follow a LIFO order, while stacks follow a FIFO",
-       "Arrays have a fixed size, while stacks can dynamically expand"
+   "Data access in a stack follows a particular sequence, arrays do not follow a specific order",
+   "Arrays follow a LIFO order, while stacks follow a FIFO",
+   "Arrays have a fixed size, while stacks can dynamically expand"
    ],
    "What sorting algorithm has the quickest runtime?" : [
-      "Quicksort",
-       "Bogosort",
-       "Bubblesort"
+   "Quicksort",
+   "Bogosort",
+   "Bubblesort"
    ],
    "How does variable declaration affect memory?" : [
-       "The amount of memory allocated  depends on the data type being stored in the variable",
-       "Variable declaration has no impact on memory",
-       "Memory allocation is fixed for all variables"
+   "The amount of memory allocated  depends on the data type being stored in the variable",
+   "Variable declaration has no impact on memory",
+   "Memory allocation is fixed for all variables"
    ],
    "What are dynamic data structures?" : [
-       "Data structures that can expand and contract as a program runs",
-       "Data structures that are only used in dynamic programming",
-       "Data structures that are predefined and cannot be changed during runtime"
+   "Data structures that can expand and contract as a program runs",
+   "Data structures that are only used in dynamic programming",
+   "Data structures that are predefined and cannot be changed during runtime"
    ],
 
   "What is the difference between an array and a linked list?": [
@@ -138,8 +138,8 @@
 
   "What is a graph data structure used for?": [
   "A graph is used for modeling relationships between various entities.",
-  "A graph is used for linear data storage.",
-  "A graph is used for non-linear data."
+  "A graph is used to define the 2D and 3D coordinates of objects in virtual spaces.",
+  "A graph is used to encode audio and video data in multimedia applications."
   ],
 
   "What is a doubly-linked list?": [
@@ -150,8 +150,8 @@
 
   "What is the purpose of a heap data structure?": [
   "A heap is used for priority queue operations like insertion, maximum extraction, and sorting.",
-  "The purpose of a heap data structure is to provide a place for collecting garbage and waste materials in computer memory.",
-  "A heap is used for searching data."
+  "A heap is used exclusively when you want to be able to quickly access the minimum element.",
+  "A heap is used exclusively when you want to be able to quickly access the maximum element."
   ],
 
   "What is the primary advantage of a hash table data structure?": [
@@ -166,24 +166,24 @@
   "A stack and a queue are the same; they both follow the FIFO principle."
   ],
     "What is runtime analysis in computer science?": [
-  "Runtime analysis is the process of determining how the running time of an algorithm or program grows as a function of its input size.",
-  "Runtime analysis is the actual time it takes for a computer program to execute.",
-  "Runtime analysis is used to measure the memory usage of a program."
+    "Runtime analysis is the process of determining how the running time of an algorithm or program grows as a function of its input size.",
+    "Runtime analysis is the actual time it takes for a computer program to execute.",
+    "Runtime analysis is the measure of programming lines and its effect on how long it takes the program to run."
   ],
 
   "What is Big O notation used for in runtime analysis?": [
-  "Big O notation is used to describe the upper bound of an algorithm's running time in the worst-case scenario.",
-  "Big O notation is used for measuring the lower bound of running time.",
-  "Big O notation is used for sorting algorithms only."
+    "Big O notation is used to describe the upper bound of an algorithm's running time in the worst-case scenario.",
+    "Big O notation is used for measuring the lower bound of an algorithm's running time.",
+    "Big O notation is used for measuring the average bound of an algorithm's running time."
   ],
 
   "What is the time complexity of an algorithm?": [
-  "Time complexity is a measure of the amount of time an algorithm takes in terms of the input size.",
-  "Time complexity is a measure of the number of instructions in an algorithm.",
-  "Time complexity is a measure of the memory usage of an algorithm."
+    "Time complexity is a measure of the amount of time an algorithm takes in terms of the input size.",
+    "Time complexity is a measure of the number of instructions in an algorithm.",
+    "Time complexity is a measure of the number of lines of an algorithm."
   ],
 
-  "What does it mean when we say an algorithm has a linear time complexity (O(n))?": [
+  "What does it mean when we say an algorithm has a linear time complexity?": [
   "It means the running time of the algorithm grows linearly with the size of the input data.",
   "It means the algorithm takes constant time to run.",
   "It means the algorithm takes logarithmic time to run."
@@ -196,18 +196,18 @@
   ],
 
   "What is the difference between best-case and worst-case time complexity?": [
-  "Best-case time complexity is the minimum running time an algorithm can achieve, while worst-case time complexity is the maximum running time.",
-  "Best-case time complexity is the time it takes in practice, while worst-case time complexity is theoretical.",
-  "Best-case and worst-case time complexity are always the same."
+    "Best-case time complexity is the minimum running time an algorithm can achieve, while worst-case time complexity is the maximum running time.",
+    "Best-case time complexity is the time it takes in practice, while worst-case time complexity is theoretical.",
+    "Best-case time complexity is the maximum running time an algorithm can achieve, while worst-case time complexity is the minimum running time."
   ],
 
   "What is the space complexity of an algorithm?": [
-  "Space complexity is a measure of the amount of memory an algorithm uses in terms of the input size.",
-  "Space complexity is the same as time complexity.",
-  "Space complexity is a measure of the number of variables in an algorithm."
+    "Space complexity is a measure of the amount of memory an algorithm uses in terms of the input size.",
+    "Space complexity is a measure of the amount of memory an algorithm uses in terms of the output size.",
+    "Space complexity is a measure of the amount of time an algorithm takes in terms of the input size."
   ],
 
-  "What does it mean when we say an algorithm has quadratic time complexity (O(n^2))?": [
+  "What does it mean when we say an algorithm has quadratic time complexity?": [
   "It means the running time of the algorithm grows quadratically with the size of the input data.",
   "It means the algorithm takes constant time to run.",
   "It means the algorithm takes logarithmic time to run."
@@ -219,7 +219,7 @@
   "You can compare algorithms by looking at the number of lines of code they have."
   ],
 
-  "What is an algorithm's time complexity if it has an exponential growth rate (O(2^n))?": [
+  "What is an algorithm's time complexity if it has an exponential growth rate ?": [
   "An algorithm with O(2^n) time complexity has exponential growth, meaning its running time doubles with each increase in input size.",
   "An algorithm with O(2^n) time complexity takes constant time to run.",
   "An algorithm with O(2^n) time complexity takes logarithmic time to run."
@@ -232,9 +232,9 @@
   ],
 
   "What is the difference between average-case and worst-case time complexity?": [
-  "Average-case time complexity considers the expected running time over all possible inputs, while worst-case time complexity considers the maximum running time over all inputs.",
-  "Average-case time complexity is always the same as worst-case time complexity.",
-  "Average-case time complexity considers the minimum running time over all inputs."
+    "Average-case time complexity considers the expected running time over all possible inputs, while worst-case time complexity considers the maximum running time over all inputs.",
+    "Average-case time complexity is always the same as worst-case time complexity.",
+    "Worst-case time complexity considers the expected running time over all possible inputs, while average-case time complexity considers the maximum running time over all inputs."
   ],
 
   "What is the time complexity of a binary search algorithm?": [
@@ -255,68 +255,68 @@
   "A linearithmic algorithm has a time complexity of O(1), which is the fastest possible."
   ],
   "What is space complexity in computer science?": [
-        "Space complexity in computer science refers to the amount of memory or storage space an algorithm or program requires to solve a problem.",
-        "Space complexity is a measure of how efficiently an algorithm uses memory resources to process data.",
-        "Space complexity deals with memory consumption during program execution."
+    "Space complexity in computer science refers to the amount of memory or storage space an algorithm or program requires to solve a problem.",
+    "Space complexity is a measure of how efficiently an algorithm uses memory resources to process data.",
+    "Space complexity deals with memory consumption during program execution."
   ],
 
   "Why is space complexity important when analyzing algorithms?": [
-      "Space complexity is crucial for understanding how efficiently an algorithm utilizes memory resources.",
-      "It helps assess the impact of an algorithm on memory usage, which is essential for optimizing resource allocation.",
-      "Space complexity analysis is important for designing memory-efficient programs."
+    "Space complexity is crucial for understanding how efficiently an algorithm utilizes memory resources.",
+    "It helps assess the impact of an algorithm on memory usage, which is essential for optimizing resource allocation.",
+    "Space complexity analysis is important for designing memory-efficient programs."
   ],
 
   "What is the difference between space complexity and time complexity?": [
-      "Space complexity focuses on memory usage, while time complexity focuses on execution time.",
-      "Space complexity is about the memory resources required, and time complexity is about the computational time needed.",
-      "Space complexity and time complexity are distinct measures of algorithm efficiency."
+    "Space complexity focuses on memory usage, while time complexity focuses on execution time.",
+    "Space complexity is about the memory resources required, and time complexity is about the computational time needed.",
+    "Space complexity and time complexity are distinct measures of algorithm efficiency."
   ],
 
   "How is space complexity typically expressed in Big O notation?": [
-      "Space complexity is often expressed using Big O notation, such as O(1), O(n), or O(n^2), where 'n' represents the problem size.",
-      "The Big O notation is commonly used to describe the upper bound on memory usage in relation to the input size.",
-      "Space complexity analysis provides an upper bound on memory growth using Big O notation."
+    "Space complexity is often expressed using Big O notation, such as O(1), O(n), or O(n^2), where 'n' represents the problem size.",
+    "The Big O notation is commonly used to describe the upper bound on memory usage in relation to the input size.",
+    "Space complexity analysis provides an upper bound on memory growth using Big O notation."
   ],
 
   "What is auxiliary space complexity in the context of algorithms?": [
-      "Auxiliary space complexity refers to the additional memory space used by an algorithm beyond the input data.",
-      "It includes any memory required for variables, data structures, and recursive function calls.",
-      "Auxiliary space complexity measures the extra memory usage introduced by an algorithm."
+    "Auxiliary space complexity refers to the additional memory space used by an algorithm beyond the input data.",
+    "It includes any memory required for variables, data structures, and recursive function calls.",
+    "Auxiliary space complexity measures the extra memory usage introduced by an algorithm."
   ],
 
   "Can an algorithm have different space complexities for best, average, and worst cases?": [
-      "Yes, an algorithm can exhibit different space complexities for its best, average, and worst-case scenarios.",
-      "The space complexity may vary based on the input data and algorithm behavior in different situations.",
-      "It is important to consider space usage across various cases when analyzing an algorithm."
+    "Yes, an algorithm can exhibit different space complexities for its best, average, and worst-case scenarios.",
+    "The space complexity may vary based on the input data and algorithm behavior in different situations.",
+    "No, an algorithm can't exhibit different space complexities for its best, average, and worst-case scenarios."
   ],
 
   "What is in-place space complexity, and when is it preferred?": [
-      "In-place space complexity refers to algorithms that use a constant amount of additional memory space, usually O(1).",
-      "In-place algorithms are preferred when memory resources are limited or need to be conserved.",
-      "In-place space complexity is often associated with efficient memory usage."
+    "In-place space complexity refers to algorithms that use a constant amount of additional memory space, usually O(1).",
+    "In-place algorithms are preferred when memory resources are limited or need to be conserved.",
+    "In-place space complexity is often associated with efficient memory usage."
   ],
 
   "How do data structures affect the space complexity of algorithms?": [
-      "The choice of data structures can significantly impact an algorithm's space complexity.",
-      "Efficient data structures can reduce memory usage, while inefficient ones can increase it.",
-      "Selecting appropriate data structures is crucial for managing space complexity."
+    "The choice of data structures can significantly impact an algorithm's space complexity.",
+    "Efficient data structures can reduce memory usage, while inefficient ones can increase it.",
+    "The choice of data structures can significantly impact an algorithm's time complexity."
   ],
 
   "What is the primary goal of optimizing space complexity in algorithm design?": [
-      "The primary goal of optimizing space complexity is to minimize memory consumption while maintaining algorithm correctness and efficiency.",
-      "Efficient space utilization can lead to faster and more resource-efficient programs.",
-      "Optimizing space complexity contributes to better overall system performance."
+    "The primary goal of optimizing space complexity is to minimize memory consumption while maintaining algorithm correctness and efficiency.",
+    "Efficient space utilization can lead to faster and more resource-efficient programs.",
+    "Optimizing space complexity contributes to better overall system performance."
   ],
 
   "What are some common techniques for reducing space complexity in algorithms?": [
-      "Common techniques include reusing memory, eliminating redundant data, and employing efficient data structures.",
-      "Dynamic programming and memoization are often used to optimize space complexity.",
-      "Minimizing space complexity may involve trade-offs with time complexity."
+    "Common techniques include reusing memory, eliminating redundant data, and employing efficient data structures.",
+    "Dynamic programming and memoization are often used to optimize space complexity.",
+    "Increasing time complexity to achieve lower space complexity."
   ],
     "What is the purpose of a binary search algorithm?": [
     "Binary search is used to efficiently locate a specific item in a sorted list.",
-    "Binary search is used for sorting data in descending order.",
-    "Binary search is a simple linear search algorithm."
+    "Binary search is used to efficiently locate a specific item in an unsorted list.",
+    "Binary search is used to efficiently locate a specific item in an unsorted linked list."
   ],
     "What is the role of an operating system in a computer system?": [
     "An operating system manages hardware and provides services for computer programs.",
