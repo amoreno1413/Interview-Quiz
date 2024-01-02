@@ -1,12 +1,12 @@
 {
   "What is a Data Structure?": [
     "A data structure is a storage format that defines the way data is stored, organized, and manipulated.",
-    "A data structure is a storage format that defines a computer algorithm used to sort and filter data.",
-    "A data structure is a storage format specifically designed to store and retrieve information."
-  ],
+    "A data structure is a specific piece of data used to represent information.",
+    "A data structure is a specific type of programming language used for data manipulation."
+    ],
   "What is the difference between an array and a linked list?": [
     "An array is a static data structure with a fixed size, while a linked list is a dynamic data structure.",
-    "An array can only store integers, while a linked list can store various data types.",
+    "An array is a dynamic data structure, while a linked list is a static data structure with a fixed size.",
     "Arrays and linked lists are fundamentally the same data structure."
   ],
   "What is a stack data structure used for?": [
@@ -26,8 +26,8 @@
   ],
   "What is a hash table data structure?": [
     "A hash table is a data structure that maps keys to values for efficient retrieval.",
-    "A hash table is a data structure used for hashing passwords and securely storing user login information.",
-    "A hash table is a data structure type used for solving mathematical equations."
+    "A hash table is a data structure that organizes key-value pairs in a sorted tree-like structure, allowing for efficient retrieval and range queries.",
+    "A hash table  is a data structure that combines the features of a hash table and a linked list to maintain insertion order, providing predictable iteration order."
   ],
   "How does a linked list differ from an array in terms of memory allocation?": [
     "A linked list dynamically allocates memory for each element, while an array pre-allocates a block of memory.",
@@ -37,11 +37,11 @@
   "What is a graph data structure used for?": [
     "A graph is used for modeling relationships between various entities.",
     "A graph is used to define the 2D and 3D coordinates of objects in virtual spaces.",
-    "A graph is used to encode audio and video data in multimedia applications."
+    "A graph data structure is used for encoding and decoding data in computer networks."
   ],
   "What is a doubly-linked list?": [
     "A doubly-linked list is a type of linked list where each node has pointers to both the next and previous nodes.",
-    "A doubly-linked list is a list that contains only even numbers.",
+    "A doubly-linked list is a data structure where each node's value is double the previous value. ",
     "A doubly-linked list is a type of linked list where each node contains a copy of every previous node."
   ],
   "What is the purpose of a heap data structure?": [
@@ -66,7 +66,7 @@
   ],
   "What is the difference between a stack and a queue data structure?": [
     "A stack follows the Last In, First Out (LIFO) principle, while a queue follows the First In, First Out (FIFO) principle.",
-    "A stack and a queue are the same; they both follow the LIFO principle.",
+    "A stack follows the First In, First Out (FIFO) principle, while a queue follows the Last In, First Out (LIFO) principle.",
     "A stack and a queue are the same; they both follow the FIFO principle."
   ],
   "What is runtime analysis in computer science?": [
@@ -106,8 +106,8 @@
   ],
   "What does it mean when we say an algorithm has quadratic time complexity?": [
     "It means the running time of the algorithm grows quadratically with the size of the input data.",
-    "It means the algorithm takes constant time to run.",
-    "It means the algorithm takes logarithmic time to run."
+    "It means the running time of the algorithm grows quadratically with the size of the output data.",
+    "It means the running time of the algorithm grows logarithmicly with the size of the input data."
   ],
   "How can you compare two algorithms based on their time complexity?": [
     "You can compare algorithms by looking at their Big O notation and choosing the one with the lower order of growth for the given problem.",
@@ -295,8 +295,18 @@
     "The 'keys()' method in Python dictionaries is used for encryption purposes."
   ],
   "What is an Array?": [
-      "An array is commonly referred to as a collection of items stored at contiguous memory locations.",
-      "An array is commonly referred to as a collection of items stored at non-contiguous memory locations.",
-      "An array is a special type of computer hardware used for data storage."
+    "An array is commonly referred to as a collection of items stored at contiguous memory locations.",
+    "An array is commonly referred to as a collection of items stored at non-contiguous memory locations.",
+    "An array is a special type of computer hardware used for data storage."
+],
+  "What is the primary difference between a HashMap and a HashTable?" : [
+    "A HashMap can contain NULL keys/values while a HashTable can not.",
+    "A HashTable can contain NULL keys/values while a HashMap can not.",
+    "A HashMap's iteration order is random, a HashTable's iteration order is sorted according to natural order of keys."
+  ],
+  "What is the primary difference between a Stack and a Heap?": [
+    "Global variables are stored in the heap, local variables are stored in the stack.",
+    "Global variables are stored in the stack, local variables are stored in the heap.",
+    "Stacks and Heaps are the same data structure."
   ]
 }

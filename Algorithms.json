@@ -1,18 +1,18 @@
  {
     "What is a Data Structure?": [
     "A data structure is a storage format that defines the way data is stored, organized, and manipulated.",
-    "A data structure is a way to sort books on a shelf.",
-    "A data structure is a specific type of programming language."
+    "A data structure is a specific piece of data used to represent information.",
+    "A data structure is a specific type of programming language used for data manipulation."
     ],
     "What is an Array?": [
     "An array is commonly referred to as a collection of items stored at contiguous memory locations.",
-    "An array is a kind of spreadsheet used for organizing data.",
-    "An array is a special type of computer hardware used for data storage."
+    "An array is commonly referred to as a collection of items stored at non-contiguous memory locations.",
+    "An array is commonly referred to as a collection of items stored at random memory locations."
     ],
     "What is a Linked List?": [
     "A linked list is a type of data structure that has a sequence of nodes, each node points to the next node.",
-    "A linked list is a type of hyperlink used to navigate the internet.",
-    "A linked list is a type of tree-based data structure."
+    "A linked list is a type of data structure that has a sequence of nodes, each node points to the previous node.",
+    "A linked list is a type of data structure that has a sequence of vertex, each vertex points to the next vertex."
     ],
     "What is LIFO?": [
     "LIFO stands for Last In First Out.",
@@ -39,94 +39,44 @@
    ],
 
    "What sorting algorithm has the quickest runtime?" : [
-      "Quicksort",
-       "Bogosort",
-       "Bubblesort"
+      "QuickSort",
+      "MergeSort",
+      "InsertionSort"
    ],
 
    "What is the time complexity of a bubble sort algorithm?": [
   "The time complexity of bubble sort is O(n^2), where 'n' is the size of the input data.",
-  "The time complexity of bubble sort is O(n), regardless of input size.",
+  "The time complexity of bubble sort is O(n), where 'n' is the size of the input data.",
   "The time complexity of bubble sort is O(1), regardless of input size."
   ],
 
   "What is the time complexity of a quicksort algorithm in the average case?": [
   "The average-case time complexity of quicksort is O(n log n), where 'n' is the size of the input data.",
-  "The average-case time complexity of quicksort is O(n^2), regardless of input size.",
+  "The average-case time complexity of quicksort is O(n^2), where 'n' is the size of the input data.",
   "The average-case time complexity of quicksort is O(1), regardless of input size."
   ],
 
   "What is the time complexity of a selection sort algorithm?": [
   "The time complexity of selection sort is O(n^2), where 'n' is the size of the input data.",
-  "The time complexity of selection sort is O(log n), regardless of input size.",
+  "The time complexity of selection sort is O(log n), where 'n' is the size of the input data.",
   "The time complexity of selection sort is O(1), regardless of input size."
   ],
 
   "What is the time complexity of an insertion sort algorithm in the average case?": [
   "The average-case time complexity of insertion sort is O(n^2), where 'n' is the size of the input data.",
-  "The average-case time complexity of insertion sort is O(n log n), regardless of input size.",
+  "The average-case time complexity of insertion sort is O(n log n), where 'n' is the size of the input data.",
   "The average-case time complexity of insertion sort is O(1), regardless of input size."
   ],
 
   "What is the time complexity of a merge sort algorithm?": [
   "The time complexity of merge sort is O(n log n), where 'n' is the size of the input data.",
-  "The time complexity of merge sort is O(n^2), regardless of input size.",
+  "The time complexity of merge sort is O(n^2), where 'n' is the size of the input data.",
   "The time complexity of merge sort is O(1), regardless of input size."
-  ],
- "What is the Floyd-Warshall Algorithm?": [
-      "The Floyd-Warshall Algorithm is a dynamic programming algorithm used to find the shortest paths between all pairs of nodes in a weighted graph.",
-      "The Floyd-Warshall Algorithm is a cryptographic algorithm for secure communication.",
-      "The Floyd-Warshall Algorithm is a method for generating random numbers."
-  ],
-  "How does the Floyd-Warshall Algorithm determine the shortest paths between all pairs of nodes in a graph?": [
-      "The algorithm computes a table of shortest paths by considering all nodes as potential intermediaries and iteratively updating the shortest distances.",
-      "Floyd-Warshall always starts from the source node and explores all possible paths to the destination node.",
-      "The algorithm computes the shortest paths using a random search approach, which guarantees optimality."
-  ],
-  "What is the runtime complexity of the Floyd-Warshall Algorithm for finding all-pairs shortest paths?": [
-      "The runtime complexity of the Floyd-Warshall Algorithm is O(V^3), where V is the number of vertices, which is efficient for most graphs.",
-      "It has a runtime complexity of O(E log V), where E is the number of edges and V is the number of vertices.",
-      "Floyd-Warshall has a constant runtime complexity of O(1) for all graphs."
-  ],
-  "Can the Floyd-Warshall Algorithm handle graphs with negative weight cycles, and what are the implications?": [
-      "Floyd-Warshall can handle graphs with negative weight cycles, but it won't give correct results when negative weight cycles are present. It may lead to infinite negative paths.",
-      "Floyd-Warshall cannot handle graphs with negative weight cycles, and it will not return valid results.",
-      "Negative weight cycles have no effect on the Floyd-Warshall Algorithm since it guarantees optimal results."
-  ],
-  "Provide an example scenario where the Floyd-Warshall Algorithm is used in real-life applications and discuss its time complexity in that context.": [
-      "Floyd-Warshall is used in GPS navigation systems to find the shortest routes between locations. Its time complexity is crucial for real-time navigation.",
-      "It's applied in flight route optimization to determine the most cost-efficient flight paths between airports. The algorithm's time complexity affects fuel savings.",
-      "Floyd-Warshall is employed in network routing to ensure data travels secure and fast through various routers."
-  ],
- "What is Kruskal's Algorithm?": [
-      "Kruskal's Algorithm is a greedy algorithm used to find the minimum spanning tree of a connected, undirected graph.",
-      "Kruskal's Algorithm is a type of machine learning algorithm for clustering data.",
-      "Kruskal's Algorithm is an encryption technique."
-  ],
-  "How does Kruskal's Algorithm work to find the minimum spanning tree?": [
-      "Kruskal's Algorithm works by sorting all edges in the graph by their weight and then iteratively adding the shortest edges that don't form cycles until a minimum spanning tree is obtained.",
-      "It starts from a random node and traverses all nodes to create a tree.",
-      "Kruskal's Algorithm begins from the node with the highest degree and connects neighboring nodes."
-  ],
-  "What is the runtime complexity of Kruskal's Algorithm for finding a minimum spanning tree?": [
-      "The runtime complexity of Kruskal's Algorithm is O(E log E), where E is the number of edges, which is efficient for most graphs.",
-      "It has a constant runtime complexity of O(1) for finding minimum spanning trees.",
-      "Kruskal's Algorithm has a runtime complexity of O(V^2), where V is the number of vertices."
-  ],
-  "Can Kruskal's Algorithm handle graphs with weighted edges, and what are the implications?": [
-      "Kruskal's Algorithm is designed for graphs with weighted edges and works optimally to find the minimum spanning tree regardless of edge weights.",
-      "Kruskal's Algorithm cannot handle graphs with weighted edges and may not guarantee the minimum spanning tree in such cases.",
-      "Weighted edges have no effect on Kruskal's Algorithm since it doesn't consider edge weights."
-  ],
-  "Provide an example scenario where Kruskal's Algorithm is used in real-life applications and discuss its time complexity in that context.": [
-      "Kruskal's Algorithm is applied in network design to find the minimum cost of laying cables or connecting network nodes. Its time complexity is crucial for cost optimization.",
-      "It's used in circuit design to minimize the length of connections on a circuit board. The algorithm's time complexity impacts the manufacturing process.",
-      "Kruskal's Algorithm is employed in resource management for efficient allocation of resources in large organizations. Its time complexity influences resource allocation speed."
   ],
  "What is Quicksort?": [
       "Quicksort is a highly efficient, comparison-based sorting algorithm known for its fast average-case performance.",
-      "Quicksort is a type of data structure used to store numbers in a list.",
-      "Quicksort is an encryption algorithm."
+      "Quicksort is a highly inefficient, comparison-based sorting algorithm known for its slow average-case performance.",
+      "Quicksort is a highly efficient, comparison-based sorting algorithm known for its slow average-case performance."
   ],
   "How does Quicksort divide and sort elements in an array?": [
       "Quicksort selects a 'pivot' element, divides the array into two subarrays - elements less than the pivot and elements greater than the pivot - and then recursively sorts these subarrays.",
@@ -150,18 +100,18 @@
   ],
  "What is Depth-First Search (DFS)?": [
       "Depth-First Search is a graph traversal algorithm that explores as far down a branch as possible before backtracking.",
-      "It's an encryption algorithm.",
-      "DFS is a way to store data in a database."
+      "Depth-First Search is a graph traversal algorithm that explores all the neighbors of a node before moving to its children.",
+      "Depth-First Search is a graph traversal algorithm that explores every node randomly."
   ],
   "How does DFS operate when exploring a graph?": [
       "DFS explores a path as deeply as possible before backtracking to explore other branches, making it a recursive approach.",
-      "It always follows the shortest path to save computational resources.",
-      "DFS explores the graph by always taking the leftmost branch."
+      "DFS operates by traversing a graph in a random order, visiting nodes based on a random selection.",
+      "DFS operates by starting at the last node of the graph and moving backward to the first node."
   ],
   "What is the runtime complexity of DFS when applied to a graph?": [
       "The runtime complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges.",
-      "It has a runtime complexity of O(E log V), where E is the number of edges and V is the number of vertices.",
-      "DFS has a constant runtime complexity of O(1)."
+      "The runtime complexity of DFS is O(E LOG V), where V is the number of vertices and E is the number of edges.",
+      "The runtime complexity of DFS is O(V * E), where V is the number of vertices and E is the number of edges."
   ],
   "Can DFS handle graphs with weighted edges, and what are the implications?": [
       "DFS can handle weighted graphs but doesn't guarantee the shortest path. It may not find the optimal solution in such cases.",
@@ -175,8 +125,8 @@
   ],
  "What is Breadth-First Search (BFS)?": [
       "Breadth-First Search is a graph traversal algorithm that explores all the neighbors of a node before moving to its children.",
-      "It's an algorithm used for data compression.",
-      "Breadth-First Search is a type of data sorting technique."
+      "Breadth-First Search is a graph traversal algorithm that explores as far down a branch as possible before backtracking.",
+      "Breadth-First Search is a graph traversal algorithm that explores as far up a branch as possible before backtracking."
   ],
   "How does BFS determine the shortest path in an unweighted graph?": [
       "BFS guarantees the shortest path by exploring nodes level by level, ensuring the first encountered path is the shortest.",
@@ -185,8 +135,8 @@
   ],
   "What is the runtime complexity of BFS when applied to a graph?": [
       "The runtime complexity of BFS is O(V + E), where V is the number of vertices and E is the number of edges.",
-      "It has a runtime complexity of O(E log V), where E is the number of edges and V is the number of vertices.",
-      "BFS has a constant runtime complexity of O(1)."
+      "The runtime complexity of BFS is O(V * E), where V is the number of vertices and E is the number of edges.",
+      "The runtime complexity of BFS is O(E Log V), where V is the number of vertices and E is the number of edges."
   ],
   "Can BFS handle graphs with weighted edges, and what are the implications?": [
       "BFS is designed for unweighted graphs and doesn't account for weighted edges. It doesn't guarantee the shortest path in weighted graphs.",
@@ -197,5 +147,95 @@
       "BFS is employed in social network analysis to find the shortest connection between users. Its time complexity is reasonable for large social networks.",
       "It's used in web crawling to index web pages efficiently. Its time complexity plays a crucial role in keeping search engines up to date.",
       "BFS is applied in recommendation systems to find the shortest path between products or content. Its time complexity impacts user experience."
+  ],
+  "What are Divide and Conquer algorithms?": [
+    "Divide and Conquer algorithms break a problem into smaller, independent parts for individual solutions.",
+    "Divide and conquer algorithms are management techniques for breaking down large projects into manageable tasks.",
+    "Divide and conquer algorithms are problem-solving approaches that involve teamwork and collaboration."
+  ],
+  "How do Divide and Conquer algorithms work?": [
+    "Break a problem into smaller parts, solve them, and then combine into a single comprehensive solution.",
+    "Divide and conquer algorithms work by physically splitting computer components into smaller parts for more efficient processing.",
+    "Divide and conquer algorithms work by dividing computer memory into multiple segments to enhance data storage."
+  ],
+  "What is the 2-Pointer Appoach?": [
+    "A 2-Pointer approach is a technique to efficiently solve problems by processing two elements of a data structure, usually in the context of a loop.",
+    "A 2-Pointer approach is a strategy that uses only two memory addresses for storing data.",
+    "A 2-Pointer approach is a strategy that involves using 2 variables to a solve a problem."
+  ],
+  "How does a 2-Pointer algorithm work in the context of linked lists?": [
+    "A 2-Pointer algorithm involves mainting two pointers at different positions in the linked list and moving them based on certain conditions.",
+    "A 2-Pointer algorithm utilizes only two linked lists to perfom operations based on certain conditions.",
+    "A 2-Pointer algirhm is designed specifically for sorting linked lists."
+  ],
+  "In what scenarios is a 2-pointer approach beneficial for solving problems?":[
+    "A 2-Pointer approach is particularly useful for problems involving searching or comparison of elements in a sorted array or linked list.",
+    "A 2-Pointer approach is mainly suitable for problems where more than two pointers are needed for efficient computation.",
+    "A 2-Pointer apporach is limited to problems related to binary search and cannot be applied elsewhere."
+  ],
+  "What is the key charateristic of data for binary search to be effective?": [
+    "Binary search is effective when the data is sorted in ascending or descending order.",
+    "Binary search works optimally with unsorted data.",
+    "Binary search is most efficient when the data is sorted in a linked list."
+  ],
+  "How does binary search operate on a sorted array?": [
+    "Binary search compares the target value to the middle element of the array and eliminates half of the remaining elements based on the comparison result.",
+    "Binary search always starts from the first element of the array and compares it with the target value.",
+    "Binary search randomly selects elements to compare with the target value."
+  ],
+  "What is the time complexity of binary search?": [
+    "The time complexity of binary search is O(Log n), where n is the number of elements in the array.",
+    "The time complexity of binary search is O(n), where n is the number of elements in the array.",
+    "The time complexity of binary search is O(n Log n), where n is the number of elements in the array."
+  ],
+  "What defines the concept of a sliding window in algorithmic problem-solving?":[
+    "A sliding window is a subarray of fixed size that 'slides' through the larger array, allowing for efficient computation of certain problems.",
+    "A sliding window is a visual representation of array elements shifting randomly.",
+    "A sliding window is a technique exclusive to linked lsits and cannot be applied to arrays."
+  ],
+  "How does the sliding window technique optimize the solution for certain problems": [
+    "The sliding window technique optimizes solutions by avoiding the recomputation of overlapping subproblems.",
+    "The sliding window technique has no impact on the optimization of algorithmic solutions.",
+    "The sliding window technique is only useful for problems with very small input sizes."
+  ],
+  "In what scenarios is the sliding window approach not suitable?": [
+    "The sliding window approach may not be suitable for problems where the order of elements in the array is not relevant.",
+    "The sliding window approach is univerally applicable and is suitable for all types of problems.",
+    "The sliding window approach is limited to problems with a fixed-size window and cannot adapt to variable-sized windows."
+  ],
+  "What is the primary characteristic of problems that are solved using backtracking?": [
+    "Backtracking is typically used for problems where the solution is built incrementally and can be abandoned if it's determined that the current path cannot lead to a valid solution.",
+    "Backtracking is exclusively applicable to problems with a predefined and straightforward solution path.",
+    "Backtracking is designed for problems with a fixed and non-modifiable solution space."
+  ],
+  "How does backtracking handle the exploration of solution paths?": [
+    "Backtracking explores solution paths by trying out different choices, and if a choice doesn't lead to a solution, it backtracks to the previous decision point and explores other choices.",
+    "Backtracking explores solution paths sequentially without making any choices.",
+    "Backtracking only explores the solution path in the forward direction and does not backtrack to previous decision points."
+  ],
+  "What is the role of pruning in backtracking algorithms?": [
+    "Pruning in backtracking algorithms involves stopping the exploration of a particular path if it's determined that it cannot lead to a valid solution.",
+    "Pruning is not a concept associated with backtracking, as backtracking always explores all possible paths.",
+    "Pruning in backtracking is the process of selecting the most promising solution path without exploring other alternatives."
+  ],
+  "What 3 Problems are best suited for the 2-Pointer Approach?":[
+    "Valid Palidrome, Sorted 2-Sum, 3Sum",
+    "Unsorted 2-Sum, Valid Anagram, Top K Frequent Elements",
+    "Best Time to Buy and Sell Stock, Longest Substring Without Repeating Characters, Permutation in String"
+  ],
+  "What 3 Problems are best suited for Binary Search?":[
+    "Binary Search, Search a 2D Matrix, Koko Eating Bananas",
+    "Unsorted 2-Sum, Valid Anagram, Top K Frequent Elements",
+    "Contains Duplicate, Product of Array Except Self, Valid Sudoku"
+  ],
+  "What 3 Problems are best suited for Sliding Window?":[
+    "Best Time to Buy and Sell Stock, Longest Substring Without Repeating Characters, Permutation in String",
+    "Binary Search, Search a 2D Matrix, Koko Eating Bananas",
+    "Contains Duplicate, Product of Array Except Self, Valid Sudoku"
+  ],
+  "What 3 Problems are best suited for Backtracking?":[
+    "Combination Sum, Word Search, N Queens",
+    "Binary Search, Search a 2D Matrix, Koko Eating Bananas",
+    "Contains Duplicate, Product of Array Except Self, Valid Sudoku"
   ]
 }
